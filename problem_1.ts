@@ -4,4 +4,4 @@ const logger = (param1:string, param2:number = 3):void => {
     }
 }
 
-logger('azim', 2)
+logger('azim',5)

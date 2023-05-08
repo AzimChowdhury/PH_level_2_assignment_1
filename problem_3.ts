@@ -1,5 +1,6 @@
-function reverser<T>(...elements: T[]): void {
-    console.log(elements.reverse());
+function reverser<T>(...elements: T[]): T[] {
+    return elements.reverse()
 }
 
-reverser('a','b','c','d')
+const reverse = reverser('a','b','c','d')
+console.log(reverse);

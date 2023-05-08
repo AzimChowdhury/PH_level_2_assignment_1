@@ -6,4 +6,4 @@ const typeChecker = (param: unknown): void => {
     }
 }
 
-typeChecker(true)
+typeChecker(5)
